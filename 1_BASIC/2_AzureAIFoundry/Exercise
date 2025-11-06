@@ -1,0 +1,6 @@
+TASK:
+
+
+1. Deploy your model to Azure AI Foundry
+2. Test your model in Playground
+3. Connect to your model with Extensions SDK

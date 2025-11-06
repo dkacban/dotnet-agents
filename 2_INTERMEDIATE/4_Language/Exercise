@@ -1,0 +1,5 @@
+1. Create excel file with 10 QnA
+2. Create your Language resource in Azure
+3. Upload your knwoledge
+4. Read the data from Language
+5. Add Language integration as plugin to our main project
