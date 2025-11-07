@@ -1,0 +1,14 @@
+1. Ask model for pizza prescription
+2. Check number of tokens used
+3. Calculate monthly cost of 1000 such questions each day
+4. Update your prompt to prevent such issue
+5. Adjust your prompt to be compliant with our schema
+
+
+System Prompt: 
+Who you are (name)
+What you are doing?
+What is the tone?
+questions you answer / not answer?
+Contact data?
+Rules

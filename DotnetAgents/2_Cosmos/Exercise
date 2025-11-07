@@ -1,0 +1,27 @@
+1. Create cosmosDB in Azure
+
+2. Add settings in your appsettings.Development.json
+"CosmosDB": {
+    "CosmosDbEndpoint": ":443/",
+    "AuthKey": "XXXXXX",
+    "DatabaseId": "TODO",
+    "ContainerId": "Chat"
+  }
+2. Connect your app to CosmosDB database
+3. Register IStorage in you app - in Program.cs instead of memory:
+
+builder.Services.AddSingleton<IStorage>(sp =>
+{
+    var configuration = sp.GetRequiredService<IConfiguration>();
+
+
+    var options = builder.Configuration
+    .GetSection("CosmosDB")
+    .Get<CosmosDbPartitionedStorageOptions>();
+
+    return new CosmosDbPartitionedStorage(options);
+});
+
+
+4. Test. Run a conversation with bot
+5. Verify that state is saved and conversation is in DB
