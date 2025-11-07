@@ -8,10 +8,13 @@
 
 2. Reflective Observation
 - What is the cheapest way to depoy our model? (Depends on consumption)
-- When VM may be a good option()
-- What is the easiest way to eploy our model?
+- When VM may be a good option(cost effectivenes/we accept SLM/speed is not priority)
+- Limitations of VMs? (not for low latency, low traffic, high price for 64GB RAM machine?)
+- What is the easiest way to deploy our model?
 
 3. Abstract Conceptualization
+- VM for small language models
+- Foundry for LLMS and quick response from LLM
 
 4. Active Experimenting
-- Exercise: Depoy your own LLN
+- Exercise: Depoy your own LLM
