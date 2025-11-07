@@ -1,0 +1,16 @@
+1. Concrete Experience
+- How to scale our app? 
+  + We use Memory Storage - what may happen when we scale?
+
+2. Reflective Observation (Drawing - simulation)
+  + Imagine we run 2 instances on the server 
+  + message 1 hits instance 1
+  + message 2 hits instance 2
+  + what happens to converation context? (lost)
+
+3. Abstract Conceptualization
+  + Instead of using Memory storage => CosmosDB
+  + Benefits: our conversation is on the server shared among instances
+
+4. Active Experimenting
+- Exercise: Create your own Cosmos instance and use in your app

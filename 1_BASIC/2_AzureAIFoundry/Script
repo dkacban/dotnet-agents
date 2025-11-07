@@ -1,0 +1,17 @@
+1. Concrete Experience
+- Overview of Azure AI Services
+- Deploy model to your own VM
+- Azure OpenAI Project
+- Azure AI Foundry Project
+- Model deployment
+- Consume model with SDK
+
+2. Reflective Observation
+- What is the cheapest way to depoy our model? (Depends on consumption)
+- When VM may be a good option()
+- What is the easiest way to eploy our model?
+
+3. Abstract Conceptualization
+
+4. Active Experimenting
+- Exercise: Depoy your own LLN

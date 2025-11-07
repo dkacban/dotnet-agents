@@ -1,0 +1,13 @@
+1. Concrete Experience
+- Run app and ask a question and then followup question
+
+
+2. Reflective Observation
+- Is the second answer aware of previous questions sent to LLM? 
+- Does LLM hold a context of a conversation (or is LLM stateless)? 
+- Debugging sesson: check what is sent to LLM 
+
+3. Abstract Conceptualization
+
+4. Active Experimenting
+- Exercise

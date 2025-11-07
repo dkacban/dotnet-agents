@@ -1,0 +1,12 @@
+1. Concrete Experience
+- Simulation: Let's run our Web API and call with Postman
+
+
+2. Reflective Observation
+- What are limitations of our app?
+  + expose via Teams, SMS, Whatsapp, or Twilio (channels)
+
+3. Abstract Conceptualization
+
+4. Active Experimenting
+- Exercise
