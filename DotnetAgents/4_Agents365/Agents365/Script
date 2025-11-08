@@ -1,0 +1,17 @@
+1. Concrete Experience
+- Simulation: Let's run our Web API and call with Postman
+
+
+2. Reflective Observation
+- What are limitations of our app?
+  + expose via Teams, SMS, Whatsapp, or Twilio (channels)
+  + no built-in conversation logging (custom appinsight, custom DB)
+
+3. Abstract Conceptualization
+- Agents 365 help in integrations like Teams, web channel, SMS
+- direct line - call agent from any application
+- Integration with Semanic Kernel
+- Track converation with CosmosDB
+
+4. Active Experimenting
+- Exercise
