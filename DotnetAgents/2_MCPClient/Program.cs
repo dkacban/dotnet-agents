@@ -8,7 +8,7 @@ static async Task Main(string[] args)
     var transport = new HttpClientTransport(
         new HttpClientTransportOptions
         {
-            Endpoint = new Uri("ENDPOINT"),
+            Endpoint = new Uri("https://localhost:7089"),
             TransportMode = HttpTransportMode.StreamableHttp
         }
     );
