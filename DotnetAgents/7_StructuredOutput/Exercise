@@ -1,0 +1,6 @@
+1. Create model class
+2. Create Json Schema for your class
+3. Use your json schema to retrieve correct JSON
+4. Deserialize JSON and create object
+5. Use your the object in your code
+6. Run app 3 times and compare result using online tools

@@ -5,6 +5,7 @@ using Microsoft.Agents.Hosting.AspNetCore;
 using Microsoft.Agents.Builder.App;
 using Microsoft.Agents.Builder;
 using Microsoft.Agents.Storage;
+using Microsoft.Agents.Storage.CosmosDb;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +39,7 @@ builder.Services.AddBotAspNetAuthentication(builder.Configuration);
 // that state survives Agent restarts, and operate correctly
 // in a cluster of Agent instances.
 builder.Services.AddSingleton<IStorage, MemoryStorage>();
+
 
 // Add AgentApplicationOptions from config.
 builder.AddAgentApplicationOptions();

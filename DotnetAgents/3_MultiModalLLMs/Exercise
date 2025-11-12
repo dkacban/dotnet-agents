@@ -1,0 +1,7 @@
+TASK: You are working for defence ministry. Based on image of people, you should
+determine the number of people in the picture. 
+
+1. Upload images to your LLM
+2. Check if your LLM supports processing images
+3. If necessary - change model
+4. Extract text from image attached

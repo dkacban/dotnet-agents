@@ -1,0 +1,7 @@
+1. Install Ollama - command line tool for Windows
+2. Check installed models: ollama list
+3. Download model gemma3:4b: ollama pull gemma3:4b
+4. Ask model a question from command line: 
+> ollama run gemma3:4b "Write short summary of most important .NET 10 features"
+5. Is response accurate and correct?
+6. Call model and from C# code
