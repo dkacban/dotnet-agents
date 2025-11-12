@@ -25,11 +25,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>None</CopyToPublishDirectory>
     </Content>
-    <Content Remove="appsettings.Playground.json" />
-    <Content Include="appsettings.Playground.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <CopyToPublishDirectory>None</CopyToPublishDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="appsettings.Development.json" />

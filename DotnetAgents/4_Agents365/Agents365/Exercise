@@ -1,5 +1,8 @@
 1. Create Bot Service in Azure + new client secret password
 2. Create app with Agents 365 toolkit
 3. Connect your app to Azure Bot Service
-4. Setup DevTunnel
-5. Deploy your app to Azure
+4. Setup NGrok
+CONFIGURE ngrok
+- install ngrok
+- You will create key and see instructions: ngrok config add-authtoken XXXXXX
+- ngrok http 5130 --host-header=rewrite
