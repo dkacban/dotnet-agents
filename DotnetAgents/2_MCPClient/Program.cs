@@ -1,4 +1,6 @@
-﻿using Microsoft.SemanticKernel;
+﻿using System.Net.Http;
+using System.Threading;
+using Microsoft.SemanticKernel;
 using ModelContextProtocol.Client;
 
 static async Task Main(string[] args)

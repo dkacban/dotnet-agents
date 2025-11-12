@@ -76,6 +76,7 @@ public class DocumentIntelligenceService
             {
                 var documentPage = new PageOfDocument()
                 {
+                    // NOTE: start numbering from 1
                     PageNumber = i + 1,
                     Markdown = markdownPages[i],
                 };

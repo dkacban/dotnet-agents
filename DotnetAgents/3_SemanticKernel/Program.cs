@@ -6,6 +6,9 @@ var endpoint = Environment.GetEnvironmentVariable("AZUREAI_ENDPOINT");
 var deploymentName = Environment.GetEnvironmentVariable("AZUREAI_ENDPOINT");
 var apiKey = Environment.GetEnvironmentVariable("AZUREAI_APIKEY");
 
+var endpoint = "https://ai-foundry-labai-dev.cognitiveservices.azure.com/";
+var deploymentName = "gpt-41";
+var apiKey = "BtnHQw676EhmKS65qi3DAlgll0FE6rZM1UVbIloiGbphSsmoMmksJQQJ99BJACfhMk5XJ3w3AAAAACOG9IlV";
 
 var kernel = Kernel.CreateBuilder()
             .AddAzureOpenAIChatCompletion(
