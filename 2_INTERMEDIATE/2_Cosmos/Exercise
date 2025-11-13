@@ -1,5 +1,0 @@
-1. Create cosmosDB in Azure
-2. Connect your app to CosmosDB database
-3. Register IStorage in you app
-4. Test. Run a conversation with bot
-5. Verify that state is saved and conversation is in DB
